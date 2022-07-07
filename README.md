@@ -14,7 +14,7 @@
 - as a result, to measure the success of an experiment, we must not only look at the time it takes to train one epoch, but also the number of epochs to reach an accuracy (e.g. when combining cords and composer, the training time / epoch may be slighly slow than a cords only baseline; however, it should take fewer epochs before the model accuracy converges)
 
 to be completed:
-- use the completed baseline experiments on glister + indivuals composer functions to figure out the optimal configuration of cords and composer functions
+- use the completed baseline experiments on glister + indivuals composer functions to figure out the optimal configuration of cords and combinations of composer functions
 - test on larger models and test different composer parameters for smaller models
 - create clear example/tutorial notebooks with the optimal results
 
