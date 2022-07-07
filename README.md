@@ -11,7 +11,7 @@
  note on measuring speed up:
 - cords speeds up the per epoch training time because it uses data selection strategies
 - some composer functions(e.g. blurpool and squeeze_excite) slow down the per epoch training time slightly but improves accuracy faster thus speeding up overall training time
-- as a result, to measure the success of an experiment, we must not only look at the time it takes to train one epoch, but also the number of epochs to reach an accuracy (e.g. when combining cords and composer, the training time may be slighly slow than a cords only baseline; however, it should take fewer epochs before the model accuracy converges)
+- as a result, to measure the success of an experiment, we must not only look at the time it takes to train one epoch, but also the number of epochs to reach an accuracy (e.g. when combining cords and composer, the training time / epoch may be slighly slow than a cords only baseline; however, it should take fewer epochs before the model accuracy converges)
 
 ## Experiment Results
 
