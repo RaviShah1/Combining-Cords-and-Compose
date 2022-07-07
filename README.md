@@ -14,6 +14,8 @@
 
 ## Experiment Results
 
+* I have run other experiments, I will add code and documentation to this repo later - all important info is listed in observations
+
 ResNet18 on Cifar10 dataset (30 epochs) - Session 1
 
 <table>
@@ -33,6 +35,12 @@ ResNet18 on Cifar10 dataset (30 epochs) - Session 1
     <td>GLISTER+Blurpool</td>
     <td>8.6463</td>
     <td>0.0721</td>
+    <td>24</td>
+  </tr>
+  <tr>
+    <td>GLISTER+Squeeze_Excite</td>
+    <td>9.6993</td>
+    <td>0.0808</td>
     <td>24</td>
   </tr>
   <tr>
