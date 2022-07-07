@@ -8,6 +8,7 @@
 - the default composer function parameters may not be optimal on smaller models as they benchmarked results on models such as resnet101
 - it is important that some composer functions are applied in the train loops (as applying them in the evaluation loop as seen in the example nb provided to me will not improve performance)
  
+ note on measuring speed up:
 - cords speeds up the per epoch training time because it uses data selection strategies
 - some composer functions(e.g. blurpool and squeeze_excite) slow down the per epoch training time slightly but improves accuracy faster thus speeding up overall training time
 - as a result, to measure the success of an experiment, we must not only look at the time it takes to train one epoch, but also the number of epochs to reach an accuracy (e.g. when combining cords and composer, the training time may be slighly slow than a cords only baseline; however, it should take fewer epochs before the model accuracy converges)
